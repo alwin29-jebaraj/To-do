@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Lora:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+}
+
+/* Global resets & Brutalist settings */
+html, body, #root {
+  background-color: #E4E3E0;
+  color: #141414;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar and subtle transitions */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #141414 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #DCDAD7;
+  border-left: 2px solid #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #141414;
+  border-radius: 0px;
+}
+
+/* Neo-brutalist shadow utility */
+.brutalist-shadow {
+  box-shadow: 4px 4px 0px 0px #141414;
+}
+
+.brutalist-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #141414;
+}
+
+.brutalist-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #141414;
+}
+
+

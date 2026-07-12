@@ -1,0 +1,6 @@
+{
+  "name": "Task Management App",
+  "description": "An intermediate task management application with clean routing, custom form handling, and rich tabular task views with sorting, filtering, and pagination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
